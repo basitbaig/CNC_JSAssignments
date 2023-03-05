@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Assignment Chapter-15,16,17 - ToDo</title>
+</head>
+<body>
+    <h3>Javascript Assignment Chapter-15,16,17 - ToDo</h3>
+    <hr>
+    <script>
+       var courses=[];
+       var course1 =prompt("course 1", "English");
+       courses.push(course1)
+       var course2 =prompt("course 2", "Urdu")
+       courses.push(course2)
+       var course3 =prompt("course 3", "Maths")
+       courses.push(course3)
+       var course4 =prompt("course 4", "Computer")
+       courses.push(course4)
+       var course5 =prompt("course 5", "Science")
+       courses.push(course5)
+       
+    alert(courses);
+
+      var i=0;
+
+      var courseedit=prompt(courses[i],courses[i]);         
+      courses.splice(i,i,courseedit);
+
+      i++;
+      var courseedit=prompt(courses[i],courses[i]);         
+      courses.splice(i,i,courseedit);    
+      
+      i++;
+      var courseedit=prompt(courses[i],courses[i]);         
+      courses.splice(i,i,courseedit);  
+
+      i++;
+      var courseedit=prompt(courses[i],courses[i]);         
+      courses.splice(i,i,courseedit);  
+
+      i++;
+      var courseedit=prompt(courses[i],courses[i]);         
+      courses.splice(i,i,courseedit);  
+ 
+        alert(courses);
+
+    </script>
+</body>
+</html>
